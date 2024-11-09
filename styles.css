@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Header / Profile */
+header {
+    padding-top: 80px;
+    text-align: center;
+    background-color: #ff6b6b;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.profile {
+    animation: fadeIn 1.5s ease;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    animation: fadeInUp 1.5s ease;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    width: 250px;
+    height: 240px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 55%;
+    border-radius: 5px;
+}
+
+/*Project*/
+
+.comunity {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.comunity2 {
+    width: 270px;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.comunity2 img {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+
+.project-car
